@@ -1,0 +1,27 @@
+name: SQL Lint  # Name of the workflow
+
+on:
+  push:  # Trigger the workflow on a push event
+    paths:
+      - '**/*.sql'  # Trigger for any changes to SQL files in the repository
+  pull_request:  # Trigger on pull request events for SQL files
+    paths:
+      - '**/*.sql'  # Track only SQL file changes in pull requests
+
+jobs:
+  lint:  # Define the lint job
+    runs-on: ubuntu-latest  # Run this job on the latest Ubuntu environment
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3  # Check out the repository to access SQL files
+        
+      - name: Install SQLFluff
+        run: |
+          # Install SQLFluff, a tool for SQL linting
+          pip install sqlfluff
+          
+      - name: Lint SQL Files
+        run: |
+          # Run the linting on all SQL files in the repository
+          sqlfluff lint '**/*.sql'  # This will check the code style and report issues in the SQL files
