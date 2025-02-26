@@ -1,0 +1,26 @@
+name: Run SQL on MySQL
+on: [push, pull_request]
+jobs:
+  run-sql:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:latest
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: testdb
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --host=localhost --user=root --password=root" --health-interval=10s --health-timeout=5s --health-retries=3
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install MySQL client
+        run: sudo apt-get install -y mysql-client
+      - name: Run SQL files
+        run: |
+          for file in sql/*.sql; do
+            echo "Executing $file..."
+            mysql -h 127.0.0.1 -u root -proot testdb < "$file"
+          done
