@@ -1,26 +1,30 @@
-name: Run SQL on MySQL
+name: Run SQL Server Scripts
 on: [push, pull_request]
 jobs:
   run-sql:
     runs-on: ubuntu-latest
     services:
-      mysql:
-        image: mysql:latest
+      mssql:
+        image: mcr.microsoft.com/mssql/server:latest
         env:
-          MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: testdb
+          SA_PASSWORD: "YourStrong!Passw0rd"
+          ACCEPT_EULA: "Y"
         ports:
-          - 3306:3306
+          - 1433:1433
         options: >-
-          --health-cmd="mysqladmin ping --host=localhost --user=root --password=root" --health-interval=10s --health-timeout=5s --health-retries=3
+          --health-cmd "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'YourStrong!Passw0rd' -Q 'SELECT 1'" --health-interval 10s --health-timeout 5s --health-retries 3
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Install MySQL client
-        run: sudo apt-get install -y mysql-client
+      - name: Install SQL Server client (sqlcmd)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y mssql-tools unixodbc-dev
+          echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+          source ~/.bashrc
       - name: Run SQL files
         run: |
           for file in DatabaseAdministration/SQLStatements/*.sql; do
             echo "Executing $file..."
-            mysql -h 127.0.0.1 -u root -proot testdb < "$file"
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'YourStrong!Passw0rd' -d master -i "$file"
           done
