@@ -1,0 +1,22 @@
+name: Track SQL File Changes
+
+on:
+  push:
+    paths:
+      - 'DatabaseAdministration/Test/**/*.sql'  # Track SQL files in this folder
+  pull_request:
+    paths:
+      - 'DatabaseAdministration/Test/**/*.sql'
+
+jobs:
+  track-sql-changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: List Changed SQL Files
+        run: |
+          echo "Tracking SQL file changes..."
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '.sql' || echo "No SQL changes detected"
