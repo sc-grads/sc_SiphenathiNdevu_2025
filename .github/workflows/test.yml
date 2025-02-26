@@ -8,17 +8,17 @@ jobs:
 
     services:
       mssql:
-        image: mcr.microsoft.com/mssql/server:latest
+        image: mcr.microsoft.com/mssql/server:2022-latest
         env:
           ACCEPT_EULA: Y
-          SA_PASSWORD: test1234
+          SA_PASSWORD: Passw0rd@123
         ports:
           - 1433:1433
         options: >-
-          --health-cmd="/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong!Passw0rd -Q 'SELECT 1'"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=3
+          --health-cmd="/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Passw0rd@123 -Q 'SELECT 1'"
+          --health-interval=15s
+          --health-timeout=10s
+          --health-retries=5
 
     steps:
       - name: Checkout repository
@@ -27,9 +27,9 @@ jobs:
       - name: Install SQL Server client
         run: sudo apt-get install -y mssql-tools unixodbc-dev
 
-      - name: Run SQL files from DatabaseADmini/SQLSTATEMENT
+      - name: Run SQL files
         run: |
           for file in DatabaseAdministration/SQLStatements/*.sql; do
             echo "Executing $file..."
-            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong!Passw0rd -d master -i "$file"
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Passw0rd@123 -d master -i "$file"
           done
