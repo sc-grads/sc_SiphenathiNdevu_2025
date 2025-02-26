@@ -28,4 +28,4 @@ jobs:
         run: pip install sqlfluff
 
       - name: Lint SQL Files
-        run: sqlfluff lint --dialect ansi "./CREATE TABLE.sql"
+        run: sqlfluff lint --dialect ansi "./DatabaseAdministration/SQLStatements/*.sql"
