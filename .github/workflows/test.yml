@@ -20,7 +20,7 @@ jobs:
         run: sudo apt-get install -y mysql-client
       - name: Run SQL files
         run: |
-          for file in sql/*.sql; do
+          for file in DatabaseAdministration/SQLStatements/*.sql; do
             echo "Executing $file..."
             mysql -h 127.0.0.1 -u root -proot testdb < "$file"
           done
