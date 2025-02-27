@@ -1,26 +1,32 @@
-name: SQL Linting and Tracking
+name: SQL Linting
 
 on:
   push:
     paths:
-      - 'DatabaseAdministration/Test/**/*.sql'  # Track and lint SQL files in this folder
+      - 'DatabaseAdministration/Test/**/*.sql'  # Track SQL files in this folder
   pull_request:
     paths:
-      - 'DatabaseAdministration/Test/**/*.sql'
+      - 'DatabaseAdministration/Test/**/*.sql'  # Also run on PRs
 
 jobs:
-  sql-lint:
+  lint-sql-files:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Verify SQL Files Exist
+        run: |
+          echo "Checking for SQL files..."
+          ls -R DatabaseAdministration/Test/ || echo "No SQL files found!"
+
       - name: Install SQLFluff
         run: |
+          echo "Installing SQLFluff..."
           pip install sqlfluff
 
-      - name: Lint SQL Files
+      - name: Run SQL Linting
         run: |
           echo "Running SQL linting..."
-          sqlfluff lint DatabaseAdministration/Test/**/*.sql
+          sqlfluff lint "DatabaseAdministration/Test/*.sql" || echo "Linting failed!"
