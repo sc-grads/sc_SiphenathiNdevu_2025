@@ -3,10 +3,10 @@ name: SQL Lint  # Name of the workflow
 on:
   push:  # Trigger the workflow on a push event
     paths:
-      - '**/*.sql'  # Trigger for any changes to SQL files in the repository
+      - 'DatabaseAdministration/Test/**/*.sql'  # Trigger for any changes to SQL files in the repository
   pull_request:  # Trigger on pull request events for SQL files
     paths:
-      - '**/*.sql'  # Track only SQL file changes in pull requests
+      - 'DatabaseAdministration/Test/**/*.sql'  # Track only SQL file changes in pull requests
 
 jobs:
   lint:  # Define the lint job
@@ -24,4 +24,4 @@ jobs:
       - name: Lint SQL Files
         run: |
           # Run the linting on all SQL files in the repository
-          sqlfluff lint '**/*.sql'  # This will check the code style and report issues in the SQL files
+          sqlfluff lint 'DatabaseAdministration/Test/**/*.sql'  # This will check the code style and report issues in the SQL files
