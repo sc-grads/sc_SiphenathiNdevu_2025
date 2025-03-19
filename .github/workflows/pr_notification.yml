@@ -1,0 +1,14 @@
+on:
+  pull_request:
+    types:
+      - closed  # Runs only when a PR is merged or closed
+jobs:
+  notify-teams:
+    if: github.event.pull_request.merged == true  # Run only if PR is merged
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send notification to Microsoft Teams
+        run: |
+          curl -H "Content-Type: application/json" -d '{
+            "text": "A pull request has been successfully merged!\n\n*Repository:* `${{ github.repository }}`\n*PR Title:* `${{ github.event.pull_request.title }}`\n*Merged by:* `${{ github.event.pull_request.merged_by.login }}`\n[View PR](${{ github.event.pull_request.html_url }})"
+          }' ${{ https://northerndata.webhook.office.com/webhookb2/71a22a37-a28d-4e68-b78b-af8ab1cc1187@174c7352-9c5c-4558-b848-be140b444e7d/IncomingWebhook/0e68d728d34645f5852634db9e6ceaf5/10c446ae-b1e9-4a10-a18c-0e7999f556c8/V2SjKuwS5c2nhb9xtY1f6cGvo-TYXoVKSoY6kjBAGYxgY1 }}
