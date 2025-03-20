@@ -1,13 +1,13 @@
-name: Notify Teams on Merge
+name: Notify Teams on Pull Request Events
 
 on:
   pull_request:
     types:
-      - closed  # Runs only when a PR is merged or closed
+      - opened  # Trigger when a PR is created
+      - closed  # Trigger when a PR is merged or closed
 
 jobs:
   notify-teams:
-    if: github.event.pull_request.merged == true  # Run only if PR is merged
     runs-on: ubuntu-latest
 
     steps:
@@ -15,10 +15,20 @@ jobs:
         env:
           TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}  # Secure webhook URL
         run: |
-          curl -H "Content-Type: application/json" -d '{
-            "text": "✅ **Pull Request Merged!**\n\n
-            **Repository:** `${{ github.repository }}`\n
-            **PR Title:** `${{ github.event.pull_request.title }}`\n
-            **Merged by:** `${{ github.actor }}`\n
-            🔗 [View PR](${{ github.event.pull_request.html_url }})"
-          }' "$TEAMS_WEBHOOK_URL"
+          if [ "${{ github.event.action }}" == "opened" ]; then
+            curl -H "Content-Type: application/json" -d '{
+              "text": "🚀 **New Pull Request Created!**\n\n
+              **Repository:** `${{ github.repository }}`\n
+              **PR Title:** `${{ github.event.pull_request.title }}`\n
+              **Created by:** `${{ github.actor }}`\n
+              🔗 [View PR](${{ github.event.pull_request.html_url }})"
+            }' "$TEAMS_WEBHOOK_URL"
+          elif [ "${{ github.event.pull_request.merged }}" == "true" ]; then
+            curl -H "Content-Type: application/json" -d '{
+              "text": "✅ **Pull Request Merged!**\n\n
+              **Repository:** `${{ github.repository }}`\n
+              **PR Title:** `${{ github.event.pull_request.title }}`\n
+              **Merged by:** `${{ github.actor }}`\n
+              🔗 [View PR](${{ github.event.pull_request.html_url }})"
+            }' "$TEAMS_WEBHOOK_URL"
+          fi
