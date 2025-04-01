@@ -1,4 +1,4 @@
-/ #“Root,” the top of the file system hierarchy.
+/ #Root the top of the file system hierarchy.
 /etc #System configuration files.
 /home/user #Prints the current working directory
 echo "Hello, Linux!" #echo Displays text
