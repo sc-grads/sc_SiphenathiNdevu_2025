@@ -65,6 +65,57 @@ echo #echo Displays text
 /usr/sbin/userdel #Deletes a user account.
 /usr/bin/sudo #Runs a command as another user (usually root).
 
+#List Running Programs
+
+ps #Show running processes.  
+
+ps -e #Show all processes.  
+
+ps -ef #Show all processes with details.  
+
+ps -u username #Show processes for a user.  
+
+ps -p pid #Show info for a specific process ID (PID). 
+ 
+
+#Run Commands as Others with sudo
+
+sudo command #Run a command as root (e.g., sudo ls).  
+
+sudo -u user command #Run as a specific user (e.g., sudo -u oracle ls).  
+
+sudo -l #List commands you’re allowed to run.  
+
+
+#Switch Users with sudo
+
+sudo su #Switch to root.  
+
+sudo su #Switch to root with root’s environment.  
+
+sudo su - username # Switch to another user (e.g., sudo su - oracle).  
+
+sudo -s # Start a shell as root.  
+
+sudo -u user -s # Start a shell as another user. 
+
+
+#Reuse Commands with ! (Exclamation Mark)
+
+!N #Run command number N from history (e.g., !5).  
+
+!! #Run the last command again.  
+
+!string #Run the last command starting with "string" (e.g., !ls).  
+
+!:0 #Use the command name (e.g., head from head file.txt).  
+
+!:1 #Use the first argument (e.g., file.txt).  
+
+!^ #Use the first argument (e.g., file.txt).  
+
+!$ #Use the last argument (e.g., notes.txt from head file.txt notes.txt).  
+
 
 
  
