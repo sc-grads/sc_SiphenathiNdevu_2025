@@ -93,11 +93,14 @@ GO
 
 -- Step 6: Verify
 BEGIN TRY
-    PRINT 'Verification: Checking user table contents...';
-    SELECT * FROM [user];
+    IF EXISTS (SELECT 1 FROM [user])
+        PRINT 'Verification successful: Data exists.';
+    ELSE
+        PRINT 'Verification failed: No data found.';
 END TRY
 BEGIN CATCH
     PRINT 'Error verifying user table!';
     PRINT ERROR_MESSAGE();
 END CATCH;
 GO
+
