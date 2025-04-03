@@ -1,4 +1,4 @@
--- Step 1: Create AutoTestSiphenathi database
+--  Create AutoTestSiphenathi database
 BEGIN TRY
     USE master;
     IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'AutoTestSiphenathi')
@@ -15,7 +15,7 @@ BEGIN CATCH
 END CATCH;
 GO
 
--- Step 2: Switch to AutoTestSiphenathi
+--  Switch to AutoTestSiphenathi
 BEGIN TRY
     USE AutoTestSiphenathi;
     PRINT 'Switched to database AutoTestSiphenathi.';
@@ -26,7 +26,7 @@ BEGIN CATCH
 END CATCH;
 GO
 
--- Step 3: Create user table
+--  Create user table
 BEGIN TRY
     IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'user')
     BEGIN
@@ -46,7 +46,7 @@ BEGIN CATCH
 END CATCH;
 GO
 
--- Step 4: Create InsertUser stored procedure
+--  Create InsertUser stored procedure
 BEGIN TRY
     IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'InsertUser')
     BEGIN
@@ -79,7 +79,7 @@ BEGIN CATCH
 END CATCH;
 GO
 
--- Step 5: Insert initial data
+--  Insert initial data
 BEGIN TRY
     EXEC InsertUser @Name = 'Siphenathi', @Surname = 'Ndevu', @Email = 'siphenathi@example.com';
     EXEC InsertUser @Name = 'Partner', @Surname = 'One', @Email = 'partner@example.com';
@@ -91,7 +91,7 @@ BEGIN CATCH
 END CATCH;
 GO
 
--- Step 6: Verify
+-- : Verify
 BEGIN TRY
     IF EXISTS (SELECT 1 FROM [user])
         PRINT 'Verification successful: Data exists.';
