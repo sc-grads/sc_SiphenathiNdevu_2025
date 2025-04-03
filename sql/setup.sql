@@ -1,4 +1,4 @@
---  Create AutoTestSiphenathi database
+------  Create AutoTestSiphenathi database-------
 BEGIN TRY
     USE master;
     IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'AutoTestSiphenathi')
