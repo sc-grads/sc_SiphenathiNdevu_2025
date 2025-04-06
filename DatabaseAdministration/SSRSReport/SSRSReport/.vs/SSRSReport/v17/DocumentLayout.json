@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\HumanResourcesReport1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\HumanResourcesReport1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\Address chart.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\Address chart.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ChartOfProductsBySubcategory.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\ChartOfProductsBySubcategory.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ProjectReport1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\ProjectReport1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\PA4-2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\PA4-2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\Pa4-1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\Pa4-1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ProductCategories.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\ProductCategories.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ReportWizard.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{42F5EE03-6F9D-1A11-8736-65191B746418}|SSRSReport\\SSRSReport.rptproj|solutionrelative:SSRSReport\\ReportWizard.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HumanResourcesReport1.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\HumanResourcesReport1.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\HumanResourcesReport1.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\HumanResourcesReport1.rdl [Design]*",
+              "RelativeToolTip": "SSRSReport\\HumanResourcesReport1.rdl [Design]*",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-06T17:37:12.13Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Address chart.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\Address chart.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\Address chart.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\Address chart.rdl [Design]*",
+              "RelativeToolTip": "SSRSReport\\Address chart.rdl [Design]*",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-06T17:02:46.789Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChartOfProductsBySubcategory.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ChartOfProductsBySubcategory.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\ChartOfProductsBySubcategory.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ChartOfProductsBySubcategory.rdl [Design]",
+              "RelativeToolTip": "SSRSReport\\ChartOfProductsBySubcategory.rdl [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-06T16:47:39.181Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectReport1.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ProjectReport1.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\ProjectReport1.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ProjectReport1.rdl [Design]",
+              "RelativeToolTip": "SSRSReport\\ProjectReport1.rdl [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-04T12:22:13.653Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PA4-2.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\PA4-2.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\PA4-2.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\PA4-2.rdl [Design]",
+              "RelativeToolTip": "SSRSReport\\PA4-2.rdl [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-06T14:11:29.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pa4-1.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\Pa4-1.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\Pa4-1.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\Pa4-1.rdl [Design]",
+              "RelativeToolTip": "SSRSReport\\Pa4-1.rdl [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-06T14:08:58.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductCategories.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ProductCategories.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\ProductCategories.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ProductCategories.rdl [Design]",
+              "RelativeToolTip": "SSRSReport\\ProductCategories.rdl [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-05T08:37:09.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportWizard.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ReportWizard.rdl",
+              "RelativeDocumentMoniker": "SSRSReport\\ReportWizard.rdl",
+              "ToolTip": "C:\\Users\\SiphenathiNdevu\\source\\repos\\SSRSReport\\SSRSReport\\ReportWizard.rdl [Design]",
+              "RelativeToolTip": "SSRSReport\\ReportWizard.rdl [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVDhPlZVfSFNRHMe/9892573X7W5yvVc3Be\u002Bg1NKgacNBCm1o\u002BSCbhT1Ubxm99AcjCCV6ikqIoIggeskm\u002BGDam89mPWQPBSVT6I\u002BYcw5qOpN5N\u002BduL2nbHbTtAwcO5/s9X77n93IIAHhU7Xi338i0ogAkMgNj8fWxZ2trq3oNAKBpGr27r\u002B0/D6n7eK5Bx5e7w1d9b98ILEE8fRiLreh1EARBAUB3ubn/YCBgZ2QJkYlX2AzN5yx1OQzR54XJXm0xJlTRtLTEihS18DWVUlVNy2Rn7jUEgMS371h\u002BEcw\u002BAgAwkoSac2dAMiaUNzU17kuqjDAzs7m\u002BszM\u002BnUiEI\u002Bl0atdL5l79Pz\u002Bej0BdjaC6r89pVpy3\u002BiX5RAfH2a0UtVespEAAiLycRGRiEodHg2WMo3b4rEU4ddpiEXf1kgO17W3EP3xEaHCIUAausFXtHRfaWe7i5YoKO/QzLITs74G5uRkAQBoNsHk8oE1lTpIxnoxNTaUA3C6q4Y6q4uf0axAECc6pgHMqKKupwfrse3AN9bAdbW/UQPSg2IbpeByhG4MAAIpjQfPl0LQMtn/F0HDvTo63qIbZVPX2onVyHK7RIEwOh17OD2QkCQce3Efzk8cQuzr1Mmieg0mWwUiVIOn8B\u002BYF0jwP0XsMlV2d4JQ6vVyQvEA9BpsNVk8brJ42GGw2vZxHwUChxQVXcASu4AiEFpdezqNgYKnkTTUZjSI0dBMkTWNjbg7p35uYu3YdALDx6TMSi4tIrkaRSaeRjEb113Mbskod5IAfBkEAxfOwut0QfV5QPA\u002BK5yH6vLC63aB4HgZBgBzwg1WU7Ih/DbfCYZgPNaGq159jKIatcHhvT\u002BDvF1DPmI5km0plPqnOXlpZdv8BpMDAqADhOGgAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-04T11:26:43.279Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
