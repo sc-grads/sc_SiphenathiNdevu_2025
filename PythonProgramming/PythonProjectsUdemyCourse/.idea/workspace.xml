@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a595028-df10-482c-a729-4998515554ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Arssetion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Attributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CachedProperty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatBot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassMethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comparing Floats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DefiningAClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dogstring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DunderMethods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enumerated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/F-Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fruit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Globals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GroceriesProject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImprovedChatBot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Init().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instatnce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mangling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MatchCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonkeyParching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotepadProject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes(Project).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadingFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Round.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StaticMethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StatusChecker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Super.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimingCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WalrusOperrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebsiteStatusProject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print().py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="06May" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2wfahj8efOX2R4G4twOoyTn5b32" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Arssetion.executor": "Run",
+    "Python.Async.executor": "Run",
+    "Python.Attributes.executor": "Run",
+    "Python.BreakAndContinue.executor": "Run",
+    "Python.BreakAndContinue2.executor": "Run",
+    "Python.CachedProperty.executor": "Run",
+    "Python.ChartBotProject.executor": "Run",
+    "Python.ChatBot.executor": "Run",
+    "Python.ClassMethod.executor": "Run",
+    "Python.Comparing Floats.executor": "Run",
+    "Python.ConrolAndFlow.executor": "Run",
+    "Python.Constants.executor": "Run",
+    "Python.Continue.executor": "Run",
+    "Python.DataTypes.executor": "Run",
+    "Python.Dataclass.executor": "Run",
+    "Python.Decorators.executor": "Run",
+    "Python.DefiningAClass.executor": "Run",
+    "Python.Dogstring.executor": "Run",
+    "Python.DunderMethods.executor": "Run",
+    "Python.ElseFinally.executor": "Run",
+    "Python.Enumerated.executor": "Run",
+    "Python.F-Strings.executor": "Run",
+    "Python.FileHandling.executor": "Run",
+    "Python.For Loop.executor": "Run",
+    "Python.Fruit.executor": "Run",
+    "Python.Functions.executor": "Run",
+    "Python.Gather (1).executor": "Run",
+    "Python.Generators.executor": "Run",
+    "Python.Globals.executor": "Run",
+    "Python.Greetings.executor": "Run",
+    "Python.GroceriesProject.executor": "Run",
+    "Python.IfElseShortHand.executor": "Run",
+    "Python.ImprovedChatBot.executor": "Run",
+    "Python.Init().executor": "Run",
+    "Python.Instatnce.executor": "Run",
+    "Python.Integers.executor": "Run",
+    "Python.JSON.executor": "Run",
+    "Python.Lambda.executor": "Run",
+    "Python.LettersOnlyProject.executor": "Run",
+    "Python.LoopElse.executor": "Run",
+    "Python.MadLibs(Projects).executor": "Run",
+    "Python.Mangling.executor": "Run",
+    "Python.MatchCase.executor": "Run",
+    "Python.Modules.executor": "Run",
+    "Python.MonkeyParching.executor": "Run",
+    "Python.NotepadProject.executor": "Run",
+    "Python.Notes(Project).executor": "Run",
+    "Python.ParametersAndArguments.executor": "Run",
+    "Python.Pass.executor": "Run",
+    "Python.Range.executor": "Run",
+    "Python.ReadingFile.executor": "Run",
+    "Python.Recursion.executor": "Run",
+    "Python.RockPaperScissorsProject.executor": "Run",
+    "Python.Round.executor": "Run",
+    "Python.Slice.executor": "Run",
+    "Python.StaticMethod.executor": "Run",
+    "Python.StatusChecker.executor": "Run",
+    "Python.Super.executor": "Run",
+    "Python.Tasks.executor": "Run",
+    "Python.TimingCode.executor": "Run",
+    "Python.TypeHints.executor": "Run",
+    "Python.UserInput.executor": "Run",
+    "Python.Vaiables.executor": "Run",
+    "Python.WalrusOperrator.executor": "Run",
+    "Python.WebsiteStatusMain.executor": "Run",
+    "Python.WebsiteStatusProject.executor": "Run",
+    "Python.WhileConnected.executor": "Run",
+    "Python.WhileLoop.executor": "Run",
+    "Python.gather.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.print().executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "07May",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/sc_SiphenathiNdevu_2025/PythonProgramming/PythonProjectsUdemyCourse",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SiphenathiNdevu\PycharmProjects\PythonProject\.venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SiphenathiNdevu\PycharmProjects\PythonProject" />
+      <recent name="C:\Users\SiphenathiNdevu\PycharmProjects\PythonProject\.venv\Scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.NotepadProject">
+    <configuration name="FileHandling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProjectsUdemyCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FileHandling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JSON" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProjectsUdemyCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JSON.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NotepadProject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProjectsUdemyCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NotepadProject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReadingFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProjectsUdemyCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadingFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TimingCode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProjectsUdemyCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TimingCode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.NotepadProject" />
+        <item itemvalue="Python.JSON" />
+        <item itemvalue="Python.ReadingFile" />
+        <item itemvalue="Python.FileHandling" />
+        <item itemvalue="Python.TimingCode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a595028-df10-482c-a729-4998515554ed" name="Changes" comment="" />
+      <created>1746435202842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746435202842</updated>
+    </task>
+    <servers />
+  </component>
+</project>
