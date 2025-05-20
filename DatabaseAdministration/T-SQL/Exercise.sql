@@ -1,3 +1,4 @@
+Select DATENAME(month, DateOFBirth) as MonthName, count(*) as NumberEmployees,
 COUNT(EmployeeMiddleName) as NumberOfMiddleNames,
 count(*)-count(EmployeeMiddleName) as NoMiddleName,
 format(min(DateOfBirth),'dd-MM-yy') as EarliestDateOfBirth,
