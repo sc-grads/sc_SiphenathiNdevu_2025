@@ -1,4 +1,3 @@
-Self Joins
 begin tran
 alter table tblEmployee
 add Manager int
