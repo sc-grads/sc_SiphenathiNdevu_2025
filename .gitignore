@@ -10,3 +10,9 @@ Thumbs.db
 
 # Ignore Visual Studio temporary files
 .vs/
+
+*.dtsx
+*.ispac
+DatabaseAdministration/SSI Packages/bin/
+DatabaseAdministration/SSI Packages/obj/
+
