@@ -1,0 +1,9 @@
+--Create Employees table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Employees')
+BEGIN
+    CREATE TABLE Employees (
+        EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+        ConsultantName NVARCHAR(100) NOT NULL UNIQUE
+    );
+END
+GO
