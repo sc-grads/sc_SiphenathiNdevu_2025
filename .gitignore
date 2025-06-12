@@ -16,3 +16,33 @@ Thumbs.db
 DatabaseAdministration/SSI Packages/bin/
 DatabaseAdministration/SSI Packages/obj/
 
+# Ignore everything by default
+*
+
+# Allow specific SSIS package files
+!*.dtsx
+
+# Ignore Visual Studio and SSDT generated files
+bin/
+obj/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore build outputs and temporary files
+*.bak
+*.log
+*.tmp
+*.cache
+
+# Ignore configuration files that might contain sensitive data
+*.config
+*.dtsConfig
+
+# Ignore OneDrive or synced files (if applicable)
+Desktop.ini
+Thumbs.db
+
+# Ignore Visual Studio solution and project files (keep only packages)
+*.sln
+*.dtproj
