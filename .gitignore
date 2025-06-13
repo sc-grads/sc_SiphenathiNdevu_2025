@@ -17,6 +17,7 @@ Thumbs.db
 # Allow only .dtsx files anywhere
 !*.dtsx
 *.ispac
+.vs/
 DatabaseAdministration/SSI Packages/bin/
 DatabaseAdministration/SSI Packages/obj/
 
