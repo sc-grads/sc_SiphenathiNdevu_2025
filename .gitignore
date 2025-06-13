@@ -11,7 +11,11 @@ Thumbs.db
 # Ignore Visual Studio temporary files
 .vs/
 
-*.dtsx
+# Allow folders to be accessed
+!*/
+
+# Allow only .dtsx files anywhere
+!*.dtsx
 *.ispac
 DatabaseAdministration/SSI Packages/bin/
 DatabaseAdministration/SSI Packages/obj/
