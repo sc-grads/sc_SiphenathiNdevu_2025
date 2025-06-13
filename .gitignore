@@ -1,48 +1,26 @@
-# Ignore system files
-.DS_Store
-Thumbs.db
-
-# Ignore log files
-*.log
-
-# Ignore backup files
-*.bak
-
-# Ignore Visual Studio temporary files
-.vs/
-
-*.dtsx
-*.ispac
-DatabaseAdministration/SSI Packages/bin/
-DatabaseAdministration/SSI Packages/obj/
-
-# Ignore everything by default
+# Ignore everything
 *
 
-# Allow specific SSIS package files
+# But not these folders (allow Git to descend into them)
+!*/
+
+# Allow .dtsx files anywhere
 !*.dtsx
 
-# Ignore Visual Studio and SSDT generated files
-bin/
-obj/
-*.suo
-*.user
-*.sln.docstates
-
-# Ignore build outputs and temporary files
-*.bak
+# Still ignore unwanted stuff
 *.log
+*.bak
 *.tmp
 *.cache
-
-# Ignore configuration files that might contain sensitive data
 *.config
 *.dtsConfig
-
-# Ignore OneDrive or synced files (if applicable)
-Desktop.ini
-Thumbs.db
-
-# Ignore Visual Studio solution and project files (keep only packages)
+*.ispac
+*.suo
+*.user
 *.sln
 *.dtproj
+.vs/
+bin/
+obj/
+DatabaseAdministration/SSI Packages/bin/
+DatabaseAdministration/SSI Packages/obj/
