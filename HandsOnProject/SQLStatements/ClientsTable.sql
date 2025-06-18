@@ -1,9 +1,0 @@
--- Create Clients table
-IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Clients')
-BEGIN
-    CREATE TABLE Clients (
-        ClientID INT IDENTITY(1,1) PRIMARY KEY,
-        ClientName NVARCHAR(100) NOT NULL UNIQUE
-    );
-END
-GO
