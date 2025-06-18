@@ -1,26 +1,38 @@
-# Ignore everything
+# Ignore everything by default
 *
 
-# But not these folders (allow Git to descend into them)
+# Allow folder traversal
 !*/
 
-# Allow .dtsx files anywhere
-!*.dtsx
+# Allow only relevant files from VS Code projects
+!**/*.dtsx     # SSIS packages
+!**/*.sql      # SQL scripts
+!**/*.py       # Python scripts
+!**/*.json     # JSON config/scripts (optional)
+!**/*.yml      # GitHub Actions workflows (optional)
 
-# Still ignore unwanted stuff
+# Ignore typical VS/Windows junk
 *.log
 *.bak
 *.tmp
 *.cache
-*.config
-*.dtsConfig
-*.ispac
 *.suo
 *.user
 *.sln
 *.dtproj
+*.dtsConfig
+*.ispac
+*.exe
+*.dll
+
+# Ignore IDE and build folders
 .vs/
 bin/
 obj/
+__pycache__/
+.env/
+.env.*
+
+# Ignore build output from older folders
 DatabaseAdministration/SSI Packages/bin/
 DatabaseAdministration/SSI Packages/obj/
