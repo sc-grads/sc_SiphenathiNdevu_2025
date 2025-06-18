@@ -11,8 +11,8 @@
   DTS:LocaleID="7177"
   DTS:ObjectName="Package2"
   DTS:PackageType="5"
-  DTS:VersionBuild="22"
-  DTS:VersionGUID="{60E2C6CE-180B-41B6-823F-843D263014E2}">
+  DTS:VersionBuild="23"
+  DTS:VersionGUID="{A353EDEA-4537-43B9-86FA-073AFCA30C1C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1037,7 +1037,7 @@ where [refTable].[ClientName] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-15.2180859375,7.67314436852931,30.436171875,9.5537109375"
+              BoundingBox="-15.2180859375,7.6731443685293,30.436171875,9.5537109375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
