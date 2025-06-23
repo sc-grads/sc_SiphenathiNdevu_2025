@@ -1,15 +1,5 @@
-# Ignore everything by default
-*
-
 # Allow folder traversal
 !*/
-
-# Allow only relevant files from VS Code projects
-!**/*.dtsx     # SSIS packages
-!**/*.sql      # SQL scripts
-!**/*.py       # Python scripts
-!**/*.json     # JSON config/scripts (optional)
-!**/*.yml      # GitHub Actions workflows (optional)
 
 # Ignore typical VS/Windows junk
 *.log
@@ -19,20 +9,17 @@
 *.suo
 *.user
 *.sln
-*.dtproj
 *.dtsConfig
-*.ispac
 *.exe
 *.dll
 
 # Ignore IDE and build folders
 .vs/
-bin/
-obj/
 __pycache__/
+*.pyc
 .env/
 .env.*
 
-# Ignore build output from older folders
-DatabaseAdministration/SSI Packages/bin/
-DatabaseAdministration/SSI Packages/obj/
+# Ignore build output from older folders (escape spaces)
+DatabaseAdministration/SSI\ Packages/bin/
+DatabaseAdministration/SSI\ Packages/obj/
