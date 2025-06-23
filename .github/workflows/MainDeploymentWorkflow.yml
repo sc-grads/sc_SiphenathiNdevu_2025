@@ -1,0 +1,39 @@
+name: Main Deployment Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-database:
+    runs-on: [self-hosted, windows]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run SQLCMD to deploy TimesheetDB
+        shell: powershell
+        run: |
+          $sqlFile = "sql/TimesheetDB.sql"
+          if (-Not (Test-Path $sqlFile)) {
+              Write-Error "SQL file not found at: $sqlFile"
+              exit 1
+          }
+
+          Write-Host "Deploying TimesheetDB using sqlcmd..."
+          $cmd = "sqlcmd -S `"$env:DB_SERVER`" -U `"$env:DB_USER`" -P `"$env:DB_PASSWORD`" -i `"$sqlFile`""
+          Invoke-Expression $cmd
+          if ($LASTEXITCODE -ne 0) {
+              Write-Error "sqlcmd failed with exit code $LASTEXITCODE"
+              exit $LASTEXITCODE
+          }
+          Write-Host "Database deployment completed."
+        env:
+          DB_SERVER: ${{ secrets.DB_SERVER }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+
+  trigger-ssis-and-jobs:
+    needs: deploy-database
+    uses: ./.github/workflows/SSISDeploy.yml
+    secrets: inherit
