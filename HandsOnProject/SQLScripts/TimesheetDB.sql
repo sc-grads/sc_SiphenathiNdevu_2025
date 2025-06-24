@@ -1,8 +1,8 @@
-﻿-- ======================================
+﻿-- ===============================
 -- TimesheetDB Full Database and Tables Creation
 -- =============================================
 
--- 🔁 Create Database (if not exists)
+--  Create Database (if not exists)
 IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'TimesheetDB')
 BEGIN
     CREATE DATABASE [TimesheetDB];
