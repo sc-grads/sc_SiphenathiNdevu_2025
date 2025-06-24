@@ -14,7 +14,7 @@ jobs:
       - name: Run SQLCMD to deploy TimesheetDB
         shell: powershell
         run: |
-          $sqlFile = "sql/TimesheetDB.sql"
+          $sqlFile = "HandsOnProject/SQLScripts/TimesheetDB.sql"
           if (-Not (Test-Path $sqlFile)) {
               Write-Error "SQL file not found at: $sqlFile"
               exit 1
