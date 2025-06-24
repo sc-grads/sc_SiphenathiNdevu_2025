@@ -158,7 +158,7 @@ jobs:
         shell: powershell
         run: |
           Write-Host "Starting SQL Server Agent jobs deployment..."
-          $template = "sql/JobScript.sql"
+          $template = "HandsOnProject/SQLScripts/JobScript.sql"
           $outdir = "temp-jobs"
           New-Item -ItemType Directory -Force -Path $outdir | Out-Null
 
