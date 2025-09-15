@@ -12,6 +12,8 @@
 *.dtsConfig
 *.exe
 *.dll
+node_modules/
+
 
 # Ignore IDE and build folders
 .vs/
